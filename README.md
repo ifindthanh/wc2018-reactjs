@@ -1,2 +1,2 @@
 use
-'npm start' and enjoy
+`npm start` and enjoy
