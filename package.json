@@ -11,10 +11,13 @@
     "react-time": "^4.3.0"
   },
   "scripts": {
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://192.168.100.102:8090/smvn-worldcup/api/"
+  "proxy": "http://192.168.100.102:8090/smvn-worldcup/api/",
+  "homepage": "https://ifindthanh.github.io/wc2018-reactjs"
 }
